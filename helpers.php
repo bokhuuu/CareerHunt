@@ -29,3 +29,17 @@ function loadPartial($name)
         echo "Partial '{$name}' not found!";
     }
 }
+/**
+ * 
+ * Inspect a value and die
+ * 
+ * @param mixed
+ * @return void
+ * 
+ */
+function inspectAndDie($value)
+{
+    echo '<pre>';
+    die(var_dump($value));
+    echo '</pre>';
+}
