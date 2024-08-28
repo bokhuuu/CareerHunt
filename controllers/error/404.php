@@ -1,3 +1,3 @@
 <?php
 
-echo "404 erorr";
+require './views/error/404.view.php';

@@ -1,3 +1,3 @@
 <?php
 
-echo "listings";
+require './views/listings/index.view.php';
